@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Evaluation Challenge</title>
+  <script src="vendors/angular.min.js" charset="utf-8"></script>
+  <script src="vendors/angular-route.min.js" charset="utf-8"></script>
+  <script src="scripts/pizzaController.js" charset="utf-8"></script>
+  <script src="scripts/pizzaService.js" charset="utf-8"></script>
+
+</head>
+
+<body ng-app="myApp">
+  <h1>Pizza Restaurants Info</h1>
+  <div ng-controller="PizzaController as pc" ng-init="pc.getPizzaInfo()">
+    some stuff
+  </div>
+  <div>
+      <p ng-repeat='info in pc.restaurants'>
+         {{ info.restaurants }}
+      </p>
+</body>
+
+</html>

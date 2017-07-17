@@ -1,0 +1,27 @@
+{
+  "name": "evaluation-challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aleleyva10/evaluation-challenge.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aleleyva10/evaluation-challenge/issues"
+  },
+  "homepage": "https://github.com/aleleyva10/evaluation-challenge#readme",
+  "dependencies": {
+    "angular": "^1.6.5",
+    "angular-route": "^1.6.5",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3",
+    "pg": "^6.4.1"
+  }
+}
