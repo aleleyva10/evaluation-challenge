@@ -12,14 +12,12 @@
 </head>
 
 <body ng-app="myApp">
-  <h1>Pizza Restaurants Info</h1>
+  <h1>Pizza Restaurants</h1>
   <div ng-controller="PizzaController as pc" ng-init="pc.getPizzaInfo()">
-    some stuff
-  </div>
-  <div>
-      <p ng-repeat='info in pc.restaurants'>
-         {{ info.restaurants }}
+      <p ng-repeat='info in pc.pizza'>
+         {{ info.name }} {{ info.phone_number | myFormat }}
       </p>
+</div>
 </body>
 
 </html>

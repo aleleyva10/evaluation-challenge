@@ -14,7 +14,7 @@ var pool = new pg.Pool(config);
 
 
 // gets all info from the database
-router.get('/restaurants', function (req, res) {
+router.get('/', function (req, res) {
   pool.connect(function (err, client, done) {
     if (err) {
       console.log('Error connecting to the DB', err);

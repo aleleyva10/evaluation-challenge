@@ -11,9 +11,5 @@ router.get('/', function(req, res) {
   res.sendFile(path.resolve('public/views/index.html'));
 });
 
-router.post('/', function(req, res) {
-  console.log('base url post hit', req.body);
-  res.send('whatever');
-});
 
 module.exports = router;

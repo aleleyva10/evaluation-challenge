@@ -11,5 +11,5 @@ myApp.service( 'PizzaService', function( $http ){
       sv.data = response.data;
       return response;
     }); // end http
-  }; //end retrievePizzaInfo
-});
+  }; //end getPizzaInfo
+}); // end Service
