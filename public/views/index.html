@@ -8,16 +8,16 @@
   <script src="vendors/angular-route.min.js" charset="utf-8"></script>
   <script src="scripts/pizzaController.js" charset="utf-8"></script>
   <script src="scripts/pizzaService.js" charset="utf-8"></script>
-
+  <link rel="stylesheet" href="styles/main.css">
 </head>
 
 <body ng-app="myApp">
   <h1>Pizza Restaurants</h1>
   <div ng-controller="PizzaController as pc" ng-init="pc.getPizzaInfo()">
-      <p ng-repeat='info in pc.pizza'>
-         {{ info.name }} {{ info.phone_number | myFormat }}
-      </p>
-</div>
+    <p ng-repeat='info in pc.pizza'>
+      Name: {{ info.name }} <br> Phone Number: {{ info.phone_number | myFormat }}
+    </p>
+  </div>
 </body>
 
 </html>

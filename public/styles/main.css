@@ -1,7 +1,26 @@
 body {
   background-color: #89DAFF;
+  text-align: center;
 }
 
 h1 {
-  color: #22007C;
+  color: #0D00A4;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 25px;
+  color: #016FB9;
+
+}
+p:hover {
+  color:#C20114;
+}
+
+h3 {
+  text-align: center;
+  display: inline-block;
+  margin-left: 10px;
 }
